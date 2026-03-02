@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SOVIDA LLC – IP Monetization & Development</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="images/sovida-logo.jpg" alt="SOVIDA LLC" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#properties">Properties</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Intellectual Property Business Development &amp; Monetization</h1>
+      <p>SOVIDA focuses on monetizing intellectual property rights by devising and implementing sensible commercial road maps. Managing Director Daniel Marks utilizes his 20+ years experience in media and entertainment to create, develop and/or grow entertainment and educational properties and brands in the global marketplace.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section services-section">
+    <h2 class="section-label">SERVICES</h2>
+    <div class="services-grid" id="services-grid"></div>
+  </section>
+
+  <section id="properties" class="section properties-section">
+    <h2 class="section-label">Properties in Development</h2>
+    <div class="properties-grid" id="properties-grid"></div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2 class="section-label">Contact</h2>
+    <div class="contact-inner">
+      <div class="contact-email">
+        <p>✉️ <a href="mailto:dan@sovidallc.com">dan@sovidallc.com</a></p>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <h3>Get in Touch</h3>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+        <p id="form-success" style="display:none; color:#4a7c59; margin-top:10px;">Thanks! Your message has been sent.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SOVIDA LLC. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
