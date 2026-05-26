@@ -58,7 +58,7 @@ function renderAvailable() {
       <img src="${p.image}" alt="${p.title}" onerror="this.style.display='none'" />
       <h3>${p.title}</h3>
       <p>${p.description}</p>
-      ${p.pdf ? `<a class="pdf-link" href="${p.pdf}" target="_blank">📄 View Full Catalog (PDF)</a>` : ''}
+${p.pdf ? `<a class="pdf-link" href="${p.pdf}" download>📄 Download Full Catalog (PDF)</a>` : ''}
     </div>
   `).join('');
 }
