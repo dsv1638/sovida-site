@@ -34,9 +34,18 @@
     <div class="services-grid" id="services-grid"></div>
   </section>
 
-  <section id="properties" class="section properties-section">
-    <h2 class="section-label">Properties in Development</h2>
-    <div class="properties-grid" id="properties-grid"></div>
+<section id="properties" class="section properties-section">
+    <h2 class="section-label">Properties</h2>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="tab-development">Properties in Development</button>
+      <button class="tab-btn" data-tab="tab-available">Available Properties</button>
+    </div>
+    <div id="tab-development" class="tab-panel active">
+      <div class="properties-grid" id="properties-grid"></div>
+    </div>
+    <div id="tab-available" class="tab-panel">
+      <div class="properties-grid" id="available-grid"></div>
+    </div>
   </section>
 
   <section id="contact" class="section contact-section">
