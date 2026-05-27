@@ -4,7 +4,8 @@ const services = [
   { title: "Licensing", description: "Setting up and running your licensing program" },
   { title: "Market Development", description: "Bringing properties and brands to new markets and platforms" },
   { title: "Strategic Partnerships", description: "Finding the right partner(s) to help your business growth and expansion. Structuring the deal. Closing the partnership." },
-  { title: "IP Development", description: "Taking a creative idea and making it a reality" }
+  { title: "IP Development", description: "Taking a creative idea and making it a reality" },
+  { title: "Distribution", description: "Placing existing IP on streaming/educational services and content platforms" }
 ];
 
 function renderServices() {
