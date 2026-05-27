@@ -17,7 +17,7 @@ body {
   margin-bottom: 16px;
 }
 .header-logo img {
-  height: 130px;
+  height: 200px;
 }
 nav {
   display: flex;
@@ -260,4 +260,7 @@ footer {
   .tab-btn { padding: 12px 20px; font-size: 0.75rem; }
 }
   .tab-btn { padding: 12px 20px; font-size: 0.75rem; }
+}
+.nav-links li a {
+  text-decoration: none;
 }
