@@ -11,7 +11,7 @@ body {
 #navbar {
   position: sticky;
   top: 0;
-  background: #1a2744;
+  background: #5BAAD4;
   border-bottom: none;
   z-index: 100;
 }
@@ -33,11 +33,11 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.nav-links a:hover { color: #c9a84c; }
+.nav-links a:hover { color: #e8f4fb; }
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #1a2744 0%, #2e4a8a 100%);
+  background: linear-gradient(135deg, #5BAAD4 0%, #4a96c0 100%);
   padding: 100px 40px;
   text-align: center;
 }
@@ -53,7 +53,7 @@ body {
 .hero p {
   font-size: 1.1rem;
   line-height: 1.9;
-  color: #c8d4f0;
+  color: #e8f4fb;
 }
 
 /* SECTIONS */
@@ -68,7 +68,7 @@ body {
   font-size: 0.75rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #c9a84c;
+  color: #5BAAD4;
   margin-bottom: 52px;
 }
 
@@ -76,10 +76,9 @@ body {
 .services-section {
   border-bottom: 1px solid #eee;
   max-width: 100%;
-  background: #f8f9fc;
+  background: #f4f9fd;
   padding: 80px 40px;
 }
-.services-section .section { padding: 0; margin: 0 auto; }
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -92,7 +91,7 @@ body {
   font-size: 1rem;
   font-family: Arial, sans-serif;
   font-weight: bold;
-  color: #1a2744;
+  color: #5BAAD4;
   margin-bottom: 12px;
 }
 .service-card p {
@@ -121,7 +120,7 @@ body {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #1a2744;
+  color: #5BAAD4;
   margin-bottom: 12px;
 }
 .property-card p {
@@ -153,10 +152,10 @@ body {
   transition: color 0.2s;
 }
 .tab-btn.active {
-  color: #1a2744;
-  border-bottom: 3px solid #c9a84c;
+  color: #5BAAD4;
+  border-bottom: 3px solid #5BAAD4;
 }
-.tab-btn:hover { color: #1a2744; }
+.tab-btn:hover { color: #5BAAD4; }
 .tab-panel { display: none; }
 .tab-panel.active { display: block; }
 .pdf-link {
@@ -164,19 +163,19 @@ body {
   margin-top: 14px;
   font-size: 0.85rem;
   font-family: Arial, sans-serif;
-  color: #1a2744;
+  color: #5BAAD4;
   text-decoration: none;
-  border: 1px solid #1a2744;
+  border: 1px solid #5BAAD4;
   padding: 8px 18px;
   border-radius: 3px;
   transition: background 0.2s;
 }
-.pdf-link:hover { background: #1a2744; color: #fff; }
+.pdf-link:hover { background: #5BAAD4; color: #fff; }
 
 /* CONTACT */
 .contact-section {
   border-top: 1px solid #eee;
-  background: #f8f9fc;
+  background: #f4f9fd;
   max-width: 100%;
   padding: 80px 40px;
 }
@@ -189,7 +188,7 @@ body {
   margin: 0 auto;
 }
 .contact-email a {
-  color: #1a2744;
+  color: #5BAAD4;
   font-size: 1rem;
   text-decoration: none;
 }
@@ -205,7 +204,7 @@ body {
   font-size: 1.4rem;
   font-weight: normal;
   text-align: center;
-  color: #1a2744;
+  color: #5BAAD4;
   margin-bottom: 8px;
 }
 .contact-form input,
@@ -220,11 +219,11 @@ body {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #2e4a8a;
+  border-color: #5BAAD4;
 }
 .contact-form button {
   padding: 14px;
-  background: #1a2744;
+  background: #5BAAD4;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -235,7 +234,7 @@ body {
   cursor: pointer;
   transition: background 0.2s;
 }
-.contact-form button:hover { background: #2e4a8a; }
+.contact-form button:hover { background: #4a96c0; }
 
 /* FOOTER */
 footer {
@@ -243,7 +242,7 @@ footer {
   padding: 28px;
   font-size: 0.8rem;
   color: #fff;
-  background: #1a2744;
+  background: #5BAAD4;
 }
 
 /* RESPONSIVE */
@@ -251,5 +250,7 @@ footer {
   .hero h1 { font-size: 1.6rem; }
   .nav-links { gap: 20px; }
   .section { padding: 60px 24px; }
+  .tab-btn { padding: 12px 20px; font-size: 0.75rem; }
+}
   .tab-btn { padding: 12px 20px; font-size: 0.75rem; }
 }
