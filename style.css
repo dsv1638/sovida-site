@@ -10,11 +10,11 @@ body {
 /* HEADER */
 #site-header {
   background: #fff;
-  padding: 28px 40px 0px 40px;
+  padding: 16px 40px 0px 40px;
   text-align: center;
 }
 .header-logo {
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 .header-logo img {
   height: 260px;
@@ -27,8 +27,8 @@ nav {
   list-style: none;
   display: flex;
   gap: 48px;
-  padding: 16px 0;
-  border-top: 1px solid rgba(255,255,255,0.3);
+  padding: 8px 0;
+  border-top: none;
   width: 100%;
   justify-content: center;
 }
