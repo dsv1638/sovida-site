@@ -266,7 +266,14 @@ footer {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
-
+#available-grid .property-card img {
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
   /* HEADER */
   #site-header {
     padding: 14px 20px 0px 20px;
