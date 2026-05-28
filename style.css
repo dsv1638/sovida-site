@@ -127,18 +127,13 @@ nav {
   gap: 48px;
 }
 .property-card { text-align: center; }
-#available-grid .property-card {
-  background: transparent;
-  box-shadow: none;
-}
-#available-grid .property-card img {
-  height: auto;
+.property-card img {
   width: 100%;
-  max-width: 400px;
-  object-fit: unset;
-  margin: 0 auto;
-  display: block;
-  box-shadow: none;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
 }
 .property-card h3 {
   font-size: 1rem;
