@@ -270,7 +270,7 @@ footer {
   height: auto;
   width: 100%;
   max-width: 400px;
-  object-fit: contain;
+  object-fit: unset;
   margin: 0 auto;
   display: block;
 }
