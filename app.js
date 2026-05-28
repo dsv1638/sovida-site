@@ -42,7 +42,7 @@ const availableProperties = [
     title: "YTN Programs",
     description: "A curated slate of Korean programming including travel, cooking, documentary, and educational series. Multiple titles available with English subtitles. Contact us for the full catalog.",
     image: "images/ytn-cover.jpg",
-    pdf: "files/YTN-Programs.pdf"
+    pdf: "https://drive.google.com/file/d/YOUR_FILE_ID/view"
   },
   {
     title: "Cats Are Masters of the World",
