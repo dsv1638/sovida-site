@@ -133,7 +133,7 @@ nav {
   object-fit: contain;
   border-radius: 6px;
   margin-bottom: 18px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  box-shadow: none;
 }
 .property-card h3 {
   font-size: 1rem;
