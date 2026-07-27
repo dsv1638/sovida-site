@@ -50,7 +50,7 @@ const availableProperties = [
     description: "A curated slate of Korean programming including travel, cooking, documentary, and educational series. Multiple titles available with English subtitles. Contact us for the full catalog.",
     image: "images/ytn-cover.jpg",
     link: "",
-    pdf: "https://drive.google.com/file/d/YOUR_FILE_ID/view"
+    pdf: "https://drive.google.com/file/d/1H81VKhVcSBzGzA6RFfFVtIb_Sj0U-hiB/view"
   },
   {
     title: "Cats Are Masters of the World",
