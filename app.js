@@ -39,27 +39,38 @@ async function renderDevelopment() {
 // ── AVAILABLE PROPERTIES ──────────────────────────────────────────────────
 const availableProperties = [
   {
+    title: "Somnolent Tater",
+    description: "A day on the couch turned into everyday on the couch. Here lies the somnolent tater, an inactive genius.",
+    image: "images/somnolent-tater.jpg",
+    link: "https://www.youtube.com/@SovidaLLC/playlists",
+    pdf: ""
+  },
+  {
     title: "YTN Programs",
     description: "A curated slate of Korean programming including travel, cooking, documentary, and educational series. Multiple titles available with English subtitles. Contact us for the full catalog.",
     image: "images/ytn-cover.jpg",
-    pdf: "https://drive.google.com/file/d/1H81VKhVcSBzGzA6RFfFVtIb_Sj0U-hiB/view?usp=sharing"
+    link: "",
+    pdf: https://drive.google.com/file/d/1H81VKhVcSBzGzA6RFfFVtIb_Sj0U-hiB/view
   },
   {
     title: "Cats Are Masters of the World",
     description: "An animated series following a cast of quirky cats navigating life in a bustling neighborhood. A humorous, character-driven property with strong licensing and merchandising potential.",
     image: "images/CMW.png",
+    link: "",
     pdf: ""
   }
 ];
-
 function renderAvailable() {
   const grid = document.getElementById('available-grid');
   grid.innerHTML = availableProperties.map(p => `
     <div class="property-card">
-      <img src="${p.image}" alt="${p.title}" onerror="this.style.display='none'" />
+      ${p.link 
+        ? `<a href="${p.link}" target="_blank"><img src="${p.image}" alt="${p.title}" onerror="this.style.display='none'" /></a>`
+        : `<img src="${p.image}" alt="${p.title}" onerror="this.style.display='none'" />`
+      }
       <h3>${p.title}</h3>
       <p>${p.description}</p>
-${p.pdf ? `<a class="pdf-link" href="${p.pdf}" download>📄 Download Full Catalog (PDF)</a>` : ''}
+      ${p.pdf ? `<a class="pdf-link" href="${p.pdf}" download>📄 Download Full Catalog (PDF)</a>` : ''}
     </div>
   `).join('');
 }
