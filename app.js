@@ -41,14 +41,14 @@ const availableProperties = [
   {
     title: "Somnolent Tater",
     description: "A day on the couch turned into everyday on the couch. Here lies the somnolent tater, an inactive genius.",
-    image: "images/somnolent-tater.jpg",
+    image: "images/ZA.jpg",
     link: "https://www.youtube.com/@SovidaLLC/playlists",
     pdf: ""
   },
   {
     title: "YTN Programs",
     description: "A curated slate of Korean programming including travel, cooking, documentary, and educational series. Multiple titles available with English subtitles. Contact us for the full catalog.",
-    image: "images/ytn-cover.jpg",
+    image: "images/K-Taste.jpg",
     link: "",
     pdf: "https://drive.google.com/file/d/1H81VKhVcSBzGzA6RFfFVtIb_Sj0U-hiB/view"
   },
@@ -56,7 +56,7 @@ const availableProperties = [
     title: "Cats Are Masters of the World",
     description: "An animated series following a cast of quirky cats navigating life in a bustling neighborhood. A humorous, character-driven property with strong licensing and merchandising potential.",
     image: "images/CMW.png",
-    link: "",
+    link: "https://www.youtube.com/watch?v=hW0YU58ei-k",
     pdf: ""
   }
 ];
